@@ -1,0 +1,10 @@
+numpy
+matplotlib
+matplotlib-inline
+ipython
+atlasopenmagic
+uproot
+awkward
+vector
+requests
+aiohttp

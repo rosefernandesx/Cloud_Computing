@@ -4,7 +4,8 @@ FROM python:latest
 ADD HZZAnalysis.py ./
 
 # install dependent libraries
-RUN pip install numpy matplotlib atlasopenmagic
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
 # the command to run our program
 CMD ["python", "./HZZAnalysis.py"]

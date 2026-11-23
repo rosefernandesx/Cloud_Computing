@@ -1,8 +1,9 @@
 # cell 1
-import sys
-import os.path
-from atlasopenmagic import install_from_environment
-install_from_environment()
+# import sys
+# import os.path
+# !pip install atlasopenmagic
+# from atlasopenmagic import install_from_environment
+# install_from_environment()
 
 # cell 2
 import numpy as np # for numerical calculations such as histogramming
